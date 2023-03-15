@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>dream of my collage</title>
+    <link rel="stylesheet" href="sgp.css">
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+    }
+
+#navbar{
+    display:flex;
+    align-items: center;
+
+}
+#logo{
+}
+
+#logo img{
+ height: 89px;
+}
+.conener{
+    display: flex;
+    margin-left: 95px;
+
+}
+#navbar ul li{
+    display:inline-block;
+
+
+}
+#navbar{
+    position: relative;
+}
+#navbar ul li a{
+    text-decoration:none;
+    font-size: 25px;
+    padding: 15px 15px;
+    list-style: none;
+    color: black;
+    border-radius: 15px;
+
+}
+#navbar::before{
+    content: "";
+    background-color:rgb(198, 131, 43);
+    position: absolute;
+    height: 100%;
+    width: 103%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul li a:hover{
+    background-color:white ;
+    color: black;
+}
+#home::before{
+    content: '';
+    position: absolute;
+    background: url(project_image.jpg) no-repeat center center/cover;
+    height: 61%;
+    width: 103%;
+    z-index: -1;
+    opacity: 8.9;
+}
+
+.container{
+
+    position: absolute;
+    background-color:#263238;
+    height: 85px;
+    width: 321px;
+    text-decoration: none;
+    top: 472px;
+    left: 1000px;
+    font-size: 26px;
+    color: white;
+    padding: 9px;
+}
+.p1{
+    position: absolute;
+    top: 496px;
+    font-size: 21px;
+    margin: 45px 45px;
+    padding: 45px 45px;
+    color: grey;
+    z-index: -1;
+}
+.p1 ul li{
+    display: inline-block;
+    padding:15px 15px;
+    margin:15px 15px;
+}
+.p1 ul li a{
+    color:black
+}
+#prt img{
+    position: absolute;
+    top: 613px;
+    right: 328px;
+    padding: 5px;
+    width: 45px;
+}
+#crt img{
+    position: absolute;
+    top: 613px;
+    right: 396px;
+    padding: 5px;
+    width: 45px;
+}
+#drt img{
+    position: absolute;
+    top: 613px;
+    right: 255px;
+    padding: 5px;
+    width: 45px;
+}
+
+
+
+
+</style>
+<body>
+    <nav id="navbar">
+        <div id="logo" ><image src="logo.png"></div>
+
+
+            <div class="conener">
+                <ul>
+            <li><a href='my project.html'>Home</li>
+            <li><a href="branch.html">Branch</li>
+            <li><a href="fee2.html">Gujcet Info</li>
+            <li><a href="fee3.html">Board info</li>
+                <li><a href="fees.html">Fees</li>
+                    <li><a href="cutoff.html">Cutoff</li>
+            </ul>
+            </div>
+
+
+</nav>
+<section id="home">
+    <div class="container">Confused Where To Start ?One Stop Solution</div>
+</section>
+<div class="p1">
+    <ul>
+            <li><a href="about_us.html">About us</li>
+            <li><a href="https://www.charusat.ac.in/">Charusat,Changa</li>
+            
+    </ul>
+</div>
+</section>
+</div>
+<div id="prt" ><a href='https://www.instagram.com/thecharusat/?hl=en'><image src="inst.png"></div>
+    <div id="crt" ><a href='https://www.facebook.com/thecharusat/'><image src="fb.jpeg"></div>
+        <div id="drt" ><a href='https://twitter.com/thecharusat?lang'><image src="twitter.jpeg"></div>
+</body>
+</html>
